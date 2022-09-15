@@ -1,10 +1,10 @@
 Package: tsaR
-Title: What the Package Does (One Line, Title Case)
+Title: Aggregate Multiple Time Series into Groups
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Mark", "Scheuerell", , "scheuerl@uw.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8284-1254"))
+Description: A method for aggregating a collection of multiple time series into different groups or clusters. Fits a series of state-space models to the data where each observed time series is assigned membership to a group without any prior information about group structures. Model fitting is done in a Bayesian frameowrk using the Stan programming language.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
